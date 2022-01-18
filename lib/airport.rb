@@ -1,7 +1,7 @@
 # frozen_literal_string: true
 
-require 'plane'
-require 'weather'
+require_relative 'plane'
+require_relative 'weather'
 
 class Airport
   DEFAULT_CAPACITY = 3
